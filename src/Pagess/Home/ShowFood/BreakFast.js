@@ -16,7 +16,7 @@ const BreakFast = () => {
         {id:6,name:'Singapur breakfast',price:160,img:image6}
     ]
     return (
-        <div className='row text-center'>
+        <div className='row text-center '>
             {
                 breakFastFoods.map(breakFastFood=><BreakFastFood
                 key={breakFastFood.id}
