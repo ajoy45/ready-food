@@ -1,10 +1,12 @@
 import React from 'react';
-import {  Outlet } from 'react-router-dom';
+import {  Outlet, useNavigate } from 'react-router-dom';
 import CustomeLink from '../../CustomeLink/CustomeLink';
+import Footer from '../../Shared/Footer';
 import ChoiseUs from '../ChoiseUs/ChoiseUs';
 import Banner from './Banner/Banner';
 import './Home.css'
 const Home = () => {
+    const navigate=useNavigate()
     return (
         <div>
             <Banner></Banner>
@@ -18,9 +20,10 @@ const Home = () => {
                 <Outlet></Outlet>
             </div>
             <div className='text-center '>
-                <button className='btn btn-primary w-25 mb-5 p-3 mt-5 fs-4'>check Out</button>
+                <button onClick={()=>navigate("/checkout")} className='btn btn-primary w-25 mb-5 p-3 mt-5 fs-4'>check Out</button>
             </div>
             <ChoiseUs></ChoiseUs>
+            <Footer></Footer>
 
 
         </div>

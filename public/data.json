@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Indian breakfast", "price": 125, "img": "https://i.ibb.co/LgTv32t/breakfast1.png" },
+    { "id": 2, "name": "Bangladesh breakfast", "price": 130, "img": "https://i.ibb.co/LgTv32t/breakfast1.png" },
+    { "id": 3, "name": "Nepal breakfast", "price": 200, "img": "https://i.ibb.co/LgTv32t/breakfast1.png" },
+    { "id": 4, "name": "Thai breakfast", "price": 127, "img": "https://i.ibb.co/LgTv32t/breakfast1.png" },
+    { "id": 5, "name": "Korian breakfast", "price": 129, "img": "https://i.ibb.co/LgTv32t/breakfast1.png" },
+    {"id": 6, "name": "Singapur breakfast", "price": 160, "img": "https://i.ibb.co/LgTv32t/breakfast1.png" }
+]

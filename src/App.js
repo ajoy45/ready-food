@@ -2,9 +2,11 @@ import { Route, Routes } from "react-router-dom";
 import Home from '../src/Pagess/Home/Home';
 import Login from '../src/Pagess/Login/Login';
 import Singup from '../src/Pagess/Singup/Singup'
+import Checkout from "./Pagess/Checkout/Checkout";
 import BreakFast from "./Pagess/Home/ShowFood/BreakFast";
 import Dinner from "./Pagess/Home/ShowFood/Dinner";
 import Lunch from "./Pagess/Home/ShowFood/Lunch";
+import RewuiredAuth from "./ProtectedPage/RewuiredAuth";
 import Header from "./Shared/Header";
 
 
@@ -21,7 +23,13 @@ function App() {
          <Route path="/home" element={<Home></Home>}></Route>
          <Route path="/login" element={<Login></Login>}></Route>
          <Route path="/singup" element={<Singup></Singup>}></Route>
+         <Route path="/checkout"element={
+           <RewuiredAuth>
+             <Checkout></Checkout>
+           </RewuiredAuth>
+         }></Route>
        </Routes>
+       
     </div>
   );
 }

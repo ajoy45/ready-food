@@ -1,0 +1,36 @@
+.form-container{
+   margin: auto;
+   width: 50%;
+}
+.form-container img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+form input:not([type="submit"]){
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.form-resister{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(150, 32, 32);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+}
+.form-resister-active{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(84, 84, 238);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+}
